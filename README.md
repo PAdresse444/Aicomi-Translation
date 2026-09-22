@@ -17,7 +17,7 @@ You can see which languages are supported [here](https://gitgoon.dev/IllusionMod
 	- Extract the contents of the archive into your game directory. Overwrite files if asked. Ensure that the `BepInEx\Translation` folder is placed correctly. 
 
 4. See if it works
-	- If you wish to change the language, edit the `BepInEx\config\XUnity.AutoTranslator.cfg` file and set the `Language` option to your desired language code (e.g. ``Language=zh-TW``).
+	- If you wish to change the language, edit the `BepInEx\config\AutoTranslatorConfig.ini` file and set the `Language` option to your desired language code (e.g. ``Language=zh-TW``).
 	- Launch the game. The translations should now be applied automatically.
 	- If you see untranslated text (e.g. names of items added by mods or future game updates), you may need to change the `Endpoint` option. Press Alt+0 while in-game to open the XUnity Auto Translator menu and select a different endpoint.
 
